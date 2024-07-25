@@ -15,7 +15,7 @@ class TransaksiController extends Controller
     public function index()
     {
         $page = "Transaksi";
-        $transaksi = Sales::get();
+        $transaksi = Sales::latest()->get();
         $grandTotal = $transaksi->sum('total_bayar');
         return view('admin.pages.Daftar_Transaksi.index', compact('page', 'transaksi', 'grandTotal'));
     }
