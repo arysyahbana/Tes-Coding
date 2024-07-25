@@ -81,14 +81,14 @@
                                             <td>Diskon</td>
                                             <td class="px-5 d-flex gap-2">
                                                 Rp. <input type="number" class="form-control form-control-sm"
-                                                    name="diskonNilai">
+                                                    name="diskonNilai" value="0">
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Ongkir</td>
                                             <td class="px-5 d-flex gap-2">
                                                 Rp. <input type="text" class="form-control form-control-sm"
-                                                    name="ongkir">
+                                                    name="ongkir" value="0">
                                             </td>
                                         </tr>
                                         <tr>
